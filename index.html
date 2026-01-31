@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iron Lady - Program Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Iron Lady – Program Management System</h1>
+
+<div class="form">
+  <input type="hidden" id="programId">
+  <input type="text" id="title" placeholder="Program Title">
+  <input type="text" id="duration" placeholder="Duration">
+  <textarea id="description" placeholder="Program Description"></textarea>
+
+  <button onclick="generateDescription()">Generate Description (AI)</button>
+  <button onclick="saveProgram()">Save Program</button>
+</div>
+
+<h2>Programs List</h2>
+<ul id="programList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
